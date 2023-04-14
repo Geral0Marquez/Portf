@@ -189,7 +189,7 @@ export const projects = [
       tools: ["Html", "Css", "JavaScript"],
       imgs: ["/vvv.PNG", "/mota.PNG", "/escoa.PNG"]
     },
-
+/*
     {
       id: "13ff76e76-4fc3-4ba4-8652-1866a8e734db",
       category: "Gatsbyjs",
@@ -203,7 +203,7 @@ export const projects = [
       },
       tools: ["Html", "Css", "JavaScript"],
       imgs: ["/ecoa.PNG", "/asasad.PNG", "/ñññññ.PNG"]
-    },
+    },*/
 
     {
       id: "190ff76e76-4fc3-4ba4-8652-1866a8e734db",
