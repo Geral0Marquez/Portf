@@ -1,0 +1,75 @@
+.btn::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border: 1px solid rgb(128, 127, 127);
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 4px;
+}
+
+.btn {
+  transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 5px 5px 31px -10px #06fbce;
+}
+
+.btn:hover::before {
+  top: 0;
+  left: 0;
+  border-color: #06fbce;
+}
+
+
+.squares1 {
+  content: " ";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: #0ee0b9;
+  animation: animSqu 150s linear infinite;
+}
+
+.squares2 {
+  content: " ";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: #06fbce;
+  animation: animSqu 10s linear infinite;
+}
+
+.squares3 {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: #0ee0b9;
+  animation: animSqu 50s linear infinite;
+}
+
+.squares4 {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: #06fbce;
+  animation: animSqu 80s linear infinite;
+}
+
+@keyframes animSqu {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-2000px);
+  }
+}
+
