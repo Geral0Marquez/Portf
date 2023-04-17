@@ -64,11 +64,11 @@ const About = ({ translate }) => {
               style={{ textAlign: "justify" }}
             >
               ¡Hola! Soy Geral, una desarrolladora web con experiencia en el diseño, soporte técnico y administración web. He trabajado en empresas
-              como Fauna Diversidad Digital y SoyDigitalTeam, donde he participado en proyectos importantes para identidades reconocidas como la EPS Sura y marcas icónicas como Coca-Cola,
+              como Fauna Diversidad Digital y SoyDigital, donde he participado en proyectos importantes para identidades reconocidas como la EPS Sura y marcas icónicas como Coca-Cola,
               y he adquirido habilidades valiosas en áreas como gestión de proyectos, análisis de datos y optimización de la experiencia de usuario.
               <br /><br></br>
               <a
-                    href="https://drive.google.com/file/d/1PgU4cV_zbBn5KVoXlZCOHAkA4zf0QsYP/view?usp=sharing" download="CV" 
+                    href="https://drive.google.com/file/d/1tOHhJEZQdzqVFt1EfZE-hccM9YpcnJbi/view?usp=sharing" download="CV" 
                     rel="noopener noreferrer"
                     target="_blank"
                     className="mr-4 hover:text-primary flex items-center space-x-2"
