@@ -145,11 +145,11 @@ const About = ({ translate }) => {
               className="text-main font-semibold text-lg leading-relaxed text-gray-800 dark:text-gray-200 mb-6"
               style={{ textAlign: "justify" }}
             >
-              Hello! I'm Geral, a web developer with experience in design, technical support and web administration. I have worked in companies such as Fauna Diversidad Digital and SoyDigitalTeam, where I have participated in important projects for recognized identities such as EPS Sura and iconic brands like Coca-Cola, and I have acquired valuable skills in areas such as project management, 
+              Hello! I'm Geral, a web developer with experience in design, technical support and web administration. I have worked in companies such as Fauna Diversidad Digital and Soy Digital, where I have participated in important projects for recognized identities such as EPS Sura and iconic brands like Coca-Cola, and I have acquired valuable skills in areas such as project management, 
               data analysis and user experience optimization.
               <br /><br></br>
               <a
-                    href=""
+                    href="https://drive.google.com/file/d/1tOHhJEZQdzqVFt1EfZE-hccM9YpcnJbi/view?usp=sharing" download="CV" 
                     rel="noopener noreferrer"
                     target="_blank"
                     className="mr-4 hover:text-primary flex items-center space-x-2"
