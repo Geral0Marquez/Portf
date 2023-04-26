@@ -18,7 +18,8 @@ const About = ({ translate }) => {
     "Html/Css",
     "Javascript",
     "Moodle",
-    "Reactjs",
+    "WordPress",
+    "PHP",
     "Xampp",
     "MySQL",
     "Excel",
@@ -68,7 +69,7 @@ const About = ({ translate }) => {
               y he adquirido habilidades valiosas en áreas como gestión de proyectos, análisis de datos y optimización de la experiencia de usuario.
               <br /><br></br>
               <a
-                    href="https://drive.google.com/file/d/1tOHhJEZQdzqVFt1EfZE-hccM9YpcnJbi/view?usp=sharing" download="CV" 
+                    href="https://drive.google.com/file/d/1sb0-OQS-8PgubcKp3YJqXxcKuTPlXgwZ/view" download="CV" 
                     rel="noopener noreferrer"
                     
                     target="_blank"
