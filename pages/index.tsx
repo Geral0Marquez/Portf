@@ -14,7 +14,7 @@ import Shape from "@components/Shape";
 const Home = ({ translate }) => {
   return (
     <>
-      <MetaTags title="Geral | Front-end developer" />
+      <MetaTags title="Geral | Web developer" />
       {translate === "en" ? (
 
         <section className="relative overflow-hidden min-h-screen w-full flex items-center md:pt-0 pt-16 dark:bg-dark-theme">
