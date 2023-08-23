@@ -155,7 +155,7 @@ const About = ({ translate }) => {
               data analysis and user experience optimization.
               <br /><br></br>
               <a
-                    href="https://drive.google.com/file/d/1tOHhJEZQdzqVFt1EfZE-hccM9YpcnJbi/view?usp=sharing" download="CV" 
+                    href="https://drive.google.com/file/d/1WxiExSo-XjOhdMsRBfYr4-8j1_yVMqbr/view" download="CV" 
                     rel="noopener noreferrer"
                     target="_blank"
                     className="mr-4 hover:text-primary flex items-center space-x-2"
