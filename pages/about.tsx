@@ -23,7 +23,11 @@ const About = ({ translate }) => {
     "Xampp",
     "MySQL",
     "Excel",
-    "GitHub"
+    "GitHub",
+    "React",
+    "Node",
+    "SQL"
+
   ];
   return (
     <>
@@ -69,7 +73,8 @@ const About = ({ translate }) => {
               y he adquirido habilidades valiosas en áreas como gestión de proyectos, análisis de datos y optimización de la experiencia de usuario.
               <br /><br></br>
               <a
-                    href="https://drive.google.com/file/d/1sb0-OQS-8PgubcKp3YJqXxcKuTPlXgwZ/view" download="CV" 
+                    href="https://drive.google.com/file/d/1WxiExSo-XjOhdMsRBfYr4-8j1_yVMqbr/view" download="CV" 
+                    
                     rel="noopener noreferrer"
                     
                     target="_blank"
