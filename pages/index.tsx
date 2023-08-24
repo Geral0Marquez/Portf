@@ -25,7 +25,7 @@ const Home = ({ translate }) => {
             custom={0.6}
             className="absolute z-20 bottom-0 px-2 xl:hidden font-main uppercase font-black text-gray-300 dark:text-dark-gray   md:text-7xl text-5xl"
           >
-            Web developer
+            Dev
           </motion.h1>
           <div className="relative max-w-screen-lg px-2 w-full mx-auto">
             <div className="md:grid md:grid-cols-auto-2 md:grid-rows-auto-2 xl:gap-0 gap-4">
@@ -94,7 +94,7 @@ const Home = ({ translate }) => {
             custom={0.6}
             className="absolute z-20 bottom-0 px-2 xl:hidden font-main uppercase font-black text-gray-300 dark:text-dark-gray   md:text-7xl text-5xl"
           >
-            front-end
+            Dev
           </motion.h1>
           <div className="relative max-w-screen-lg px-2 w-full mx-auto">
             <div className="md:grid md:grid-cols-auto-2 md:grid-rows-auto-2 xl:gap-0 gap-4">
