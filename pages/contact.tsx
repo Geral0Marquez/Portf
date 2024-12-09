@@ -1,6 +1,6 @@
 import Heading from "@components/Heading";
 import {
-  faLinkedin,
+
   faGithub,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";

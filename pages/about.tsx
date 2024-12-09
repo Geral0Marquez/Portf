@@ -15,17 +15,7 @@ import { text } from "@fortawesome/fontawesome-svg-core";
 
 const About = ({ translate }) => {
  // Definir las habilidades en un solo lugar
- const skills = translate === "en" ? [
-  "Teamwork",
-  "Active listening",
-  "Problem-solving",
-  "Empathy",
-  "Adaptability",
-  "Resilience",
-  "Attention to detail",
-  "Results-oriented",
-  "Continuous development",
-] : [
+ const skills = translate === "es" ? [
   "Trabajo en equipo",
   "Escucha activa",
   "Resolución de problemas",
@@ -35,7 +25,18 @@ const About = ({ translate }) => {
   "Atención al detalle",
   "Orientación a resultados",
   "Desarrollo continuo",
+] : [
+  "Teamwork",
+  "Active listening",
+  "Problem-solving",
+  "Empathy",
+  "Adaptability",
+  "Resilience",
+  "Attention to detail",
+  "Results-oriented",
+  "Continuous development",
 ];
+
   return (
     <>
      <MetaTags title="Sobre mí" />
