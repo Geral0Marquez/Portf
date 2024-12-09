@@ -14,20 +14,28 @@ import { text } from "@fortawesome/fontawesome-svg-core";
 
 
 const About = ({ translate }) => {
-  const skills = [
-    "Trabajo en equipo",
-    "Escucha activa",
-    "Resolución de problemas",
-    "Empatía",
-    "Adaptabilidad",
-    "Resiliencia",
-    "Atención al detalle",
-    "Orientación a resultados",
-    "Capacidad para recibir retroalimentación",
-    "Desarrollo continuo",
-   
-
-  ];
+ // Definir las habilidades en un solo lugar
+ const skills = translate === "en" ? [
+  "Teamwork",
+  "Active listening",
+  "Problem-solving",
+  "Empathy",
+  "Adaptability",
+  "Resilience",
+  "Attention to detail",
+  "Results-oriented",
+  "Continuous development",
+] : [
+  "Trabajo en equipo",
+  "Escucha activa",
+  "Resolución de problemas",
+  "Empatía",
+  "Adaptabilidad",
+  "Resiliencia",
+  "Atención al detalle",
+  "Orientación a resultados",
+  "Desarrollo continuo",
+];
   return (
     <>
      <MetaTags title="Sobre mí" />
@@ -104,6 +112,8 @@ const About = ({ translate }) => {
           </div>
         </div>
       </section>) :  ( 
+
+  
       <section className="min-h-screen flex items-center pt-28 overflow-hidden dark:bg-dark-theme">
         <div className="max-w-screen-lg mx-auto xl:flex xl:justify-between xl:space-x-10 px-2">
         <MetaTags title="About me" />

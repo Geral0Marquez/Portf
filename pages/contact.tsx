@@ -194,15 +194,7 @@ const Contact = ({ translate }) => {
                   variants={list}
                   className="flex space-x-10 text-lg items-center text-gray-700"
                 >
-                  <motion.a
-                    variants={itemSlideUp}
-                    className="hover:text-primary dark:text-primary"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/geralmarquez21/"
-                  >
-                    <FontAwesomeIcon className="w-4 h-4" icon={faLinkedin} />
-                  </motion.a>
+                 
                   <motion.a
                     variants={itemSlideUp}
                     className="hover:text-primary dark:text-primary"
@@ -367,15 +359,7 @@ const Contact = ({ translate }) => {
                 variants={list}
                 className="flex space-x-10 text-lg items-center text-gray-700"
               >
-                <motion.a
-                  variants={itemSlideUp}
-                  className="hover:text-primary dark:text-primary"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/geralmarquez21/"
-                >
-                  <FontAwesomeIcon className="w-4 h-4" icon={faLinkedin} />
-                </motion.a>
+               
                 <motion.a
                   variants={itemSlideUp}
                   className="hover:text-primary dark:text-primary"
