@@ -52,8 +52,10 @@ const Home = ({ translate }) => {
                   custom={0.3}
                   className="md:text-2xl text-lg dark:text-gray-300 text-gray-700   font-lora  capitalize"
                 >
-                  
-                  Desarrolladora web <br /> 
+
+
+                  Amante de la tecnología
+                  <br />
                 </motion.p>
               </div>
               <Link href="/work">
@@ -86,7 +88,7 @@ const Home = ({ translate }) => {
           <div className="squares3"></div>
 
           <div className="squares4"></div>
-        </section>) : ( <section className="relative overflow-hidden min-h-screen w-full flex items-center md:pt-0 pt-16 dark:bg-dark-theme">
+        </section>) : (<section className="relative overflow-hidden min-h-screen w-full flex items-center md:pt-0 pt-16 dark:bg-dark-theme">
           <motion.h1
             initial="hidden"
             animate="visible"
@@ -121,8 +123,8 @@ const Home = ({ translate }) => {
                   custom={0.3}
                   className="md:text-2xl text-lg dark:text-gray-300 text-gray-700   font-lora  capitalize"
                 >
-                  
-                  Web developer <br />
+
+                  TechLover <br />
                 </motion.p>
               </div>
               <Link href="/work">

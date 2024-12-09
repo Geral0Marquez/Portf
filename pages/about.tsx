@@ -7,7 +7,7 @@ import {
   slideUp,
 } from "@helpers/animation";
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { text } from "@fortawesome/fontawesome-svg-core";
 
@@ -15,18 +15,17 @@ import { text } from "@fortawesome/fontawesome-svg-core";
 
 const About = ({ translate }) => {
   const skills = [
-    "Html/Css",
-    "Javascript",
-    "Moodle",
-    "WordPress",
-    "PHP",
-    "Xampp",
-    "MySQL",
-    "Excel",
-    "GitHub",
-    "React",
-    "Node",
-    "SQL"
+    "Trabajo en equipo",
+    "Escucha activa",
+    "Resolución de problemas",
+    "Empatía",
+    "Adaptabilidad",
+    "Resiliencia",
+    "Atención al detalle",
+    "Orientación a resultados",
+    "Capacidad para recibir retroalimentación",
+    "Desarrollo continuo",
+   
 
   ];
   return (
@@ -68,21 +67,10 @@ const About = ({ translate }) => {
               className="text-main font-semibold text-lg leading-relaxed text-gray-800 dark:text-gray-200 mb-6"
               style={{ textAlign: "justify" }}
             >
-              ¡Hola! Soy Geral, una desarrolladora web con experiencia en el diseño, soporte técnico y administración web. He trabajado en empresas
-              como Fauna Diversidad Digital y Soy Digital, donde he participado en proyectos importantes para identidades reconocidas como la EPS Sura y marcas icónicas como Coca-Cola,
-              y he adquirido habilidades valiosas en áreas como gestión de proyectos, análisis de datos y optimización de la experiencia de usuario.
+              Hola, soy Geral, una apasionada del mundo IT. Me motiva constantemente explorar nuevas experiencias y aprender todo lo relacionado con lo que me apasiona. Siempre en busca de desafíos que me permitan seguir creciendo 
+              y profundizando en este fascinante campo.
               <br /><br></br>
-              <a
-                    href="https://drive.google.com/file/d/1WxiExSo-XjOhdMsRBfYr4-8j1_yVMqbr/view" download="CV" 
-                    
-                    rel="noopener noreferrer"
-                    
-                    target="_blank"
-                    className="mr-4 hover:text-primary flex items-center space-x-2"
-                  >
-                    <h3>Visitar CV</h3>
-                    <FontAwesomeIcon className="w-4" icon={faExternalLinkAlt} />
-                  </a>
+            
               <br />
               
             </motion.p>
@@ -151,18 +139,9 @@ const About = ({ translate }) => {
               className="text-main font-semibold text-lg leading-relaxed text-gray-800 dark:text-gray-200 mb-6"
               style={{ textAlign: "justify" }}
             >
-              Hello! I'm Geral, a web developer with experience in design, technical support and web administration. I have worked in companies such as Fauna Diversidad Digital and Soy Digital, where I have participated in important projects for recognized identities such as EPS Sura and iconic brands like Coca-Cola, and I have acquired valuable skills in areas such as project management, 
-              data analysis and user experience optimization.
+              Hi, I'm Geral, a passionate enthusiast of the IT world. I am constantly motivated to explore new experiences and learn everything related to what I love. Always seeking challenges that allow me to continue growing and deepening my knowledge in this fascinating field.
               <br /><br></br>
-              <a
-                    href="https://drive.google.com/file/d/1WxiExSo-XjOhdMsRBfYr4-8j1_yVMqbr/view" download="CV" 
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className="mr-4 hover:text-primary flex items-center space-x-2"
-                  >
-                    <h3>Visit CV</h3>
-                    <FontAwesomeIcon className="w-4" icon={faExternalLinkAlt} />
-                  </a>
+             
               <br />
               
             </motion.p>

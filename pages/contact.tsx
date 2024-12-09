@@ -9,7 +9,7 @@ import {
   faMapMarkerAlt,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { item, itemSlideUp, list } from "@helpers/animation";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
@@ -171,7 +171,7 @@ const Contact = ({ translate }) => {
                   className="flex mb-4 items-center space-x-4 text-gray-700 dark:text-gray-300"
                 >
                   <FontAwesomeIcon className="w-4" icon={faPhone} />
-                  <span className="text-lg font-main">+57 3107924787</span>
+                  <span className="text-lg font-main">+57 3332910289</span>
                 </motion.div>
                 <motion.div
                   variants={item}
@@ -344,7 +344,7 @@ const Contact = ({ translate }) => {
                 className="flex mb-4 items-center space-x-4 text-gray-700 dark:text-gray-300"
               >
                 <FontAwesomeIcon className="w-4" icon={faPhone} />
-                <span className="text-lg font-main">+57 3107924787</span>
+                <span className="text-lg font-main">+57 3332910289</span>
               </motion.div>
               <motion.div
                 variants={item}
