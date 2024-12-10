@@ -15,7 +15,7 @@ import { text } from "@fortawesome/fontawesome-svg-core";
 
 const About = ({ translate }) => {
  // Definir las habilidades en un solo lugar
- const skills = translate === "es" ? [
+ const skills = translate === "en" ? [
   "Trabajo en equipo",
   "Escucha activa",
   "Resolución de problemas",
