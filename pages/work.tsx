@@ -39,7 +39,7 @@ const Work = ({ translate }) => {
       {translate === "en" ? (
         <section className="dark:bg-dark-theme relative overflow-hidden min-h-screen flex items-center py-28">
           <div className="max-w-screen-lg mx-auto w-full px-2">
-            <Heading heading="Trabajos" />
+            <Heading heading="Diseños" />
 
             <motion.div
               initial="hidden"
@@ -124,7 +124,7 @@ const Work = ({ translate }) => {
         <section className="dark:bg-dark-theme relative overflow-hidden min-h-screen flex items-center py-28">
           <div className="max-w-screen-lg mx-auto w-full px-2">
             <MetaTags title="Projects" />
-            <Heading heading="Jobs" />
+            <Heading heading="Designs " />
 
             <motion.div
               initial="hidden"

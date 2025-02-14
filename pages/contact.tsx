@@ -171,7 +171,7 @@ const Contact = ({ translate }) => {
                   className="flex mb-4 items-center space-x-4 text-gray-700 dark:text-gray-300"
                 >
                   <FontAwesomeIcon className="w-4" icon={faPhone} />
-                  <span className="text-lg font-main">+57 3332910289</span>
+                  <span className="text-lg font-main">+57 3225725141</span>
                 </motion.div>
                 <motion.div
                   variants={item}
@@ -336,7 +336,7 @@ const Contact = ({ translate }) => {
                 className="flex mb-4 items-center space-x-4 text-gray-700 dark:text-gray-300"
               >
                 <FontAwesomeIcon className="w-4" icon={faPhone} />
-                <span className="text-lg font-main">+57 3332910289</span>
+                <span className="text-lg font-main">+57 3225725141</span>
               </motion.div>
               <motion.div
                 variants={item}
