@@ -20,15 +20,15 @@ const About = ({ translate }) => {
   "CSS",
   "Javascript",
   "React",
-  "Node",
-  "AWS"
+  "SQL",
+  "Python"
 ] : [
   "HTML",
   "CSS",
   "Javascript",
   "React",
-  "Node",
-  "AWS"
+  "SQL",
+  "Python"
 ];
 
   return (
@@ -71,7 +71,7 @@ const About = ({ translate }) => {
               style={{ textAlign: "justify" }}
             >
               Hola, soy Geral, una apasionada del mundo IT. Me motiva constantemente explorar nuevas experiencias y aprender todo lo relacionado con lo que me apasiona. Siempre en busca de desafíos que me permitan seguir creciendo 
-              y profundizando en este fascinante campo.
+              y profundizando en este fascinante campo.Aunque tengo experiencia en diseño, me interesa mucho el análisis de datos. Estoy buscando oportunidades en este campo para poder aprender, aplicar nuevas habilidades y seguir creciendo profesionalmente.
               <br /><br></br>
             
               <br />
@@ -144,7 +144,7 @@ const About = ({ translate }) => {
               className="text-main font-semibold text-lg leading-relaxed text-gray-800 dark:text-gray-200 mb-6"
               style={{ textAlign: "justify" }}
             >
-              Hi, I'm Geral, a passionate enthusiast of the IT world. I am constantly motivated to explore new experiences and learn everything related to what I love. Always seeking challenges that allow me to continue growing and deepening my knowledge in this fascinating field.
+             Hi, I'm Geral, a passionate IT enthusiast. I am constantly motivated to explore new experiences and learn everything related to what I'm passionate about. Always looking for challenges that allow me to continue growing and deepening my knowledge in this fascinating field. Although I have experience in design, I am very interested in data analysis. I am seeking opportunities in this field to learn, apply new skills, and continue growing professionally."
               <br /><br></br>
              
               <br />
