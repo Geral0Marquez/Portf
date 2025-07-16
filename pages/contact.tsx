@@ -200,7 +200,7 @@ const Contact = ({ translate }) => {
                     className="hover:text-primary dark:text-primary"
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://wa.me/3225725141"
+                    href="https://wa.me/573225725141"
                   >
                     <FontAwesomeIcon className="w-4" icon={faWhatsapp} />
                   </motion.a>
@@ -365,7 +365,7 @@ const Contact = ({ translate }) => {
                   className="hover:text-primary dark:text-primary"
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://wa.me/3225725141"
+                  href="https://wa.me/573225725141"
                 >
                   <FontAwesomeIcon className="w-4" icon={faWhatsapp} />
                 </motion.a>
