@@ -16,19 +16,19 @@ import { text } from "@fortawesome/fontawesome-svg-core";
 const About = ({ translate }) => {
  // Definir las habilidades en un solo lugar
  const skills = translate === "en" ? [
-  "HTML",
-  "CSS",
-  "Javascript",
-  "React",
-  "SQL",
-  "Python"
+  "Análisis de requerimientos",
+  "Pruebas de software",
+  "Manejo de bases de datos",
+  "Conocimientos en lenguajes de programación",
+  "Excel avanzado",
+  "Soporte y atención al usuario"
 ] : [
-  "HTML",
-  "CSS",
-  "Javascript",
-  "React",
-  "SQL",
-  "Python"
+  "Requirements analysis",
+  "Software testing",
+  "Database management",
+  "Knowledge of programming languages",
+  "Advanced Excel",
+  "User support and customer service"
 ];
 
   return (
@@ -70,7 +70,7 @@ const About = ({ translate }) => {
               className="text-main font-semibold text-lg leading-relaxed text-gray-800 dark:text-gray-200 mb-6"
               style={{ textAlign: "justify" }}
             >
-             Hola, soy Geral, una apasionada del mundo IT. Me motiva aprender y explorar nuevas experiencias. Aunque he explorado el área de diseño, actualmente me interesa el área de análisis de datos, donde busco oportunidades para poder aprender, desarrollar nuevas habilidades y seguir creciendo.
+             Hola, soy Geral, una apasionada del mundo IT. Me motiva aprender constantemente y explorar nuevas experiencias. Busco oportunidades que me permitan seguir desarrollando habilidades, adquirir nuevos conocimientos y crecer profesionalmente.
               <br /><br></br>
             
               <br />
@@ -143,7 +143,7 @@ const About = ({ translate }) => {
               className="text-main font-semibold text-lg leading-relaxed text-gray-800 dark:text-gray-200 mb-6"
               style={{ textAlign: "justify" }}
             >
-             Hi, I'm Geral, a passionate enthusiast of the IT world. I am motivated by learning and exploring new experiences. Although I have explored the design field, I am currently interested in the area of data analysis, where I seek opportunities to learn, develop new skills, and continue growing.
+             Hi, I'm Geral, passionate about the IT world. I'm motivated by continuous learning and exploring new experiences. I'm looking for opportunities that allow me to develop new skills, gain knowledge, and keep growing professionally.
               <br /><br></br>
              
               <br />
