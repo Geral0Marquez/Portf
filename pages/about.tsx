@@ -19,16 +19,16 @@ const About = ({ translate }) => {
   "Análisis de requerimientos",
   "Pruebas de software",
   "Manejo de bases de datos",
-  "Conocimientos en lenguajes de programación",
+  "programación",
   "Excel avanzado",
-  "Soporte y atención al usuario"
+  "Atención al usuario"
 ] : [
   "Requirements analysis",
   "Software testing",
   "Database management",
-  "Knowledge of programming languages",
+  "programming",
   "Advanced Excel",
-  "User support and customer service"
+  "User support"
 ];
 
   return (
